@@ -147,6 +147,7 @@ body {
   padding: 1rem;
   border-radius: 7px;
   position: absolute;
+  z-index: 10;
 }
 .modal h2 {
   color: hsl(214, 47%, 23%);
@@ -195,8 +196,12 @@ body {
   .game_end {
     position: absolute;
     top: 100%;
-    left: 17%;
+    left: 25%;
     margin-top: 3rem;
+    justify-content: center;
+  }
+  .game_end p {
+    font-size: 3rem;
   }
   .rules {
     align-self: center;
